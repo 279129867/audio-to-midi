@@ -1,0 +1,5 @@
+# 核心直接依赖 (basic-pitch 会自动带入 tensorflow / librosa / pretty_midi / scipy 等)
+basic-pitch==0.4.0
+
+# torch 请单独安装 CPU 版本, 不要用默认 CUDA 大包:
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cpu

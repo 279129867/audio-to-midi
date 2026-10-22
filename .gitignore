@@ -1,0 +1,20 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 输出与临时文件
+output/
+*.mid
+!examples/*.mid
+check_torch.txt
+check_torch.py
+
+# 系统/编辑器
+.DS_Store
+.vscode/
+.idea/
